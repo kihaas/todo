@@ -1,5 +1,22 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+# Сборка
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+*.sln.iml
+*.user
+.vs/
+
+# Секреты
+todo/appsettings.json
+todo/appsettings.*.local.json
+
+# Локальная база
+*.db
+*.db-shm
+*.db-wal
+
+# ОС
+.DS_Store
+Thumbs.db

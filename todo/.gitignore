@@ -4,3 +4,11 @@ todo/*.db
 todo/*.db-shm
 todo/*.db-wal
 appsettings.json
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal
+.vs/
+.idea/
+appsettings.*.local.json

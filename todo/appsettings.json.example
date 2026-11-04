@@ -1,0 +1,22 @@
+﻿{
+  "ConnectionStrings": {
+    "Default": "Data Source=todo.db"
+  },
+  "Jwt": {
+    "Key": "CHANGE_ME_minimum_32_characters_long_secret",
+    "Issuer": "todo-api",
+    "Audience": "todo-api-users"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+    "SeedAdmin": {
+      "Username": "admin",
+      "Email": "admin@todo.local",
+      "Password": "CHANGE_ME_admin_password"
+    },
+  },
+  "AllowedHosts": "*"
+}
